@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+        <div id="container">
+        <div id="maincontainer">
+        <h1>Application For Permission To Date My Daughter</h1>
+        <div>
+            <p><b>Note</b>:Forms is to be completed at least 21 days prior to date</p>
+        </div>
+        
+        <form>
+            <fieldset>
+                    <legend>Personal Details</legend>
+                <div id="name">
+                    <label>Name: <input type="text">
+                </div>            
+                <div id="Address">
+                    <label>Address: <input type="text">
+                </div>
+                <div id="email">
+                    <label>Email: <input type="text">
+                </div>
+                <div id="phone_number">
+                    <label>Phone Number: <input type="number">
+                </d>
+                <div id="IQ">
+                    <label>IQ: <input type="number">
+                </div>
+                <div id="gender">
+                    <legend>Gender</legend><br><br>
+                    <label><input type="radio" name="gender" value="male"> Male</label><br>
+                    <label><input type="radio" name="gender" value="Female"> Female</label><br>
+                    <label><input type="radio" name="gender" value="Other"> Other</label>                                    
+                </div>
+                <form action="/action_page.php">
+                    <label for="Date of Proposed Outing">Date of Proposed Outing:</label>
+                    <input type="date" id="" name="birthday">
+                  </form>
+            </fieldset>
+            <fieldset id="second_container">
+                <h5>Check All That Apply</h5><br>
+                <label><input type="checkbox"  value="I have tattoos and/or piercings"> I have tattoos and/or piercings</label><br>
+                <label><input type="checkbox" value="  I am more than 2 years older than my daughter">  I am more than 2 years older than my daughter</label><br>
+                <label><input type="checkbox" value="I own a panel van or V8 ute">I own a panel van or V8 ute</label><br>
+                <label><input type="checkbox" value=" I work full-time"> I work full-time</label><br>
+                <label><input type="checkbox" value="My parents are rich">My parents are rich</label><br>
+                <label><input type="checkbox" value="My parents are rich">My parents are rich</label>
+            </fieldset>
+            <fieldset id="third_container">
+                <label for="Political Persuation">Political Persuation:</label>
+                <select name="Political Persuation" id="Political Persuation"><br>
+                    <option value="Left Wing">Left Wing</option>
+                    <option value="Right Wing">Right Wing</option>
+                    <option value="Conservative">Conservative</option>
+                    <option value="Nazi">Nazi</option>
+                </select><label for="Education Level Completed">Education Level Completed:</label>
+                <select name="Education Level Completed" id="Education Level Completed">
+                    <option value="University">University</option>
+                    <option value="College">College</option>
+                    <option value="High School">High School</option>
+                    <option value="None">None</option>
+                </select> 
+            </fieldset>
+            <fieldset id="forth_container">
+                <legend>Essay Section</legend>
+                <div id="essay_section">
+                <p>In 50 words or more explain why you want to date my daughter</p>
+                <form>
+                    <textarea rows="3" cols="30"></textarea>
+                </form>
+                <p>Please upload contact details for 2 references</p>
+                <form>
+                    <textarea rows="3" cols="30"></textarea>
+                </form>
+                <p>Upload Police Clearance Certificate, Bank Statement and Medical Certifiates here:</p>
+                <form>
+                    <label for="file-select">Upload:</label>
+                    <input type="file" name="upload" id="file-select">
+                </form>
+            </fieldset>
+            <div>
+        </form>
+        <h1 id="Send_Your_Application">
+            <form action="/examples/html/action.php" method="post">
+                <input type="submit" value="Submit Your Application">
+                
+            </form>    
+        <d/>
+        </div>
+        
+    </body>
+</html>

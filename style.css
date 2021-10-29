@@ -1,0 +1,70 @@
+body{
+    background-color: beige;
+}
+#container{
+    background-color: white;
+    border: solid black;
+    margin: 100px 200px
+}
+#maincontainer{
+    margin: 45px;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+p{
+    font-size: 20px;
+}
+h2{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#personal_details{
+    padding-top: 0px;
+}
+#name{
+    margin-top: 20px
+}
+#Address{
+    margin-top: 20px;
+}
+#email{
+    margin-top: 20px;
+}
+#phone_number{
+    margin-top: 20px;
+}
+#IQ{
+    margin-top: 20px;
+}
+#gender{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#second_container{
+    margin-top: 20px;
+}
+#third_container{
+    margin-top: 20px;
+}
+#forth_container{
+    padding-top: 0px;
+    margin-top: 20px;
+}
+#essay_section{
+    padding-top: 20px;
+    margin-top: 20px;
+}
+button {
+    margin: .5em;
+    font-size: 1em;
+    text-transform: capitalize;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+    
+  }
+  
